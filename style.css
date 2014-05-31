@@ -1,0 +1,29 @@
+/* line 1, ../style.css.scss */
+body {
+  line-height: 1.5em;
+  background-color: #111111; }
+
+/* line 6, ../style.css.scss */
+#site {
+  background-color: white;
+  text-align: justify;
+  max-width: 80em;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3em auto 2em;
+  border: 1px solid white; }
+
+/* line 17, ../style.css.scss */
+h1 a, h1 a:visited {
+  color: white; }
+
+/* line 21, ../style.css.scss */
+#header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-bottom: 1px solid white; }
+
+/* line 28, ../style.css.scss */
+#content {
+  padding: 40px; }
