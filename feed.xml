@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ids1024</title>
+  <subtitle/>
+  <id>http://ids1024.github.io/</id>
+  <link href="http://ids1024.github.io/"/>
+  <link href="http://ids1024.github.io/feed.xml" rel="self"/>
+  <updated>2014-05-31T03:09:00Z</updated>
+  <author>
+    <name>Ian D. Scott</name>
+  </author>
+  <entry>
+    <title>Static Site Generators</title>
+    <link rel="alternate" href="http://ids1024.github.io/2014/05/30/static-site-generators.html"/>
+    <id>http://ids1024.github.io/2014/05/30/static-site-generators.html</id>
+    <published>2014-05-31T03:09:00Z</published>
+    <updated>2014-05-30T20:13:34-07:00</updated>
+    <author>
+      <name>Ian D. Scott</name>
+    </author>
+    <content type="html">&lt;p&gt;There are essentially two ways to create a website. The most popular method is to use a CMS such as Drupal, Joomla, Wordpress, etc. This method allows for web-based WYSIWIG editors for site content, extensions, user login, comments, and various other features. It is also slower and less secure. Each time a page is loaded, the server must generate the page, often with a php script. There are methods to improve this, but nothing will be more efficient than plain, old fashioned, static html.&lt;/p&gt;
+
+&lt;p&gt;Static html is also more secure. A CMS allows for login to make changes to site content. Static html has no login, and indeed no code running on the server. The server may still have security flaws, but the static html is not at fault.&lt;/p&gt;
+
+&lt;p&gt;But static html has its own problems. Perhaps you wish to update the copyright date in your site's footer. You must change every page. If your website has five pages, this is not a problem. If it has five hundred, it might take a while, though this is a relatively trivial change. This could be remedied by php or server side includes, but this would result in the aforementioned performance issues, and possibly even insecurity.&lt;/p&gt;
+
+&lt;p&gt;What if you could take the best features of both a CMS and static html? Perhaps you could use a form of CMS, but have it generate static html instead of rendering the page on each load. Such a thing exists, and it is called a static site generator.&lt;/p&gt;
+
+&lt;p&gt;There are countless static site generators. I use &lt;a href="http://middlemanapp.com"&gt;Middleman&lt;/a&gt;, but there may be better ones, since I have not tried many. Middleman, like many static site generators, is implemented in Ruby. Static site generators implemented in Ruby can utilize tools designed for Ruby on Rails.&lt;/p&gt;
+
+&lt;p&gt;There are many legitimate reasons to use a CMS, but I prefer Middleman. It also fits better into a command line workflow. And thus, I am using Middleman for this site.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
