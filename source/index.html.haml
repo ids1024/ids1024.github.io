@@ -1,0 +1,10 @@
+---
+---
+
+- page_articles.each_with_index do |article, i|
+  .article{:itemprop=>"blogPost",:itemscope=>true,:itemtype=>"http://schema.org/BlogPosting"}
+    %h3
+      %a{:href=>article.url, :itemprop=>"url name"}=article.title
+    %time.meta{:datetime=>article.date.strftime('%Y-%m-%d'),:itemprop=>"datePublished"}=article.date.strftime('%b %e %Y')
+    %span{:itemprop=>"articleBody"}=article.body
+

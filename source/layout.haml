@@ -1,0 +1,19 @@
+!!!
+%html
+  %head
+    %meta{:charset=>"utf-8"}
+    %title=current_page.data.title
+    %link{:rel=> "stylesheet",:href=>"/style.css"}
+  %body
+    #site
+      #header{:itemscope=>true, :itemtype=>"http://schema.org/WPHeader"}
+        %h1
+          %a{:href=>'/'}=data.site.title
+
+      #content
+        - if current_page.parent
+          %h2=current_page.data.title
+
+        - if page_articles.include? current_page
+          %time.meta{:datetime=>current_page.date.strftime('%Y-%m-%d'),:itemprop=>"datePublished"}=current_page.date.strftime('%b %e %Y')
+        =yield
