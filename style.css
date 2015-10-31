@@ -27,3 +27,8 @@ h1 a, h1 a:visited {
 /* line 28, ../style.css.scss */
 #content {
   padding: 40px; }
+
+/* line 32, ../style.css.scss */
+#comments {
+  padding-left: 40px;
+  padding-right: 40px; }
