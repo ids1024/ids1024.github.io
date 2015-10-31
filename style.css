@@ -31,4 +31,5 @@ h1 a, h1 a:visited {
 /* line 32, ../style.css.scss */
 #comments {
   padding-left: 40px;
-  padding-right: 40px; }
+  padding-right: 40px;
+  padding-bottom: 40px; }
